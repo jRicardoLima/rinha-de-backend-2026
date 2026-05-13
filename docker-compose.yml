@@ -19,9 +19,7 @@ services:
       - rinha-net
 
   api1:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: jotaricardolima/rinha-backend-2026:v1
     container_name: rinha-api1
     environment:
       APP_NAME: "rinha_backend_2026"
@@ -42,9 +40,7 @@ services:
       - rinha-net
 
   api2:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: jotaricardolima/rinha-backend-2026:v1
     container_name: rinha-api2
     environment:
       APP_NAME: "rinha_backend_2026"
