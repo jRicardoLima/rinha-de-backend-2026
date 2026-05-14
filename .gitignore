@@ -24,3 +24,6 @@ build/
 *.exe
 
 test/results.json
+test/results.json
+temporary-results
+misc/participant-removal.sh
